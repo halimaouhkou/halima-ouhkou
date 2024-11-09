@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #a8e063, #56ab2f); /* Light green gradient */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Allows stacking of sections */
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ecf0f1; /* White for section title */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Container style for the cards */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Card styles */
+        .experience-item {
+            background-color: #2c3e50; /* Darker card background */
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            color: #fff;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        /* Hover effect for cards */
+        .experience-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .experience-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #a8e063; /* Light green for headings */
+            font-weight: bold;
+        }
+
+        .experience-item p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #bdc3c7;
+        }
+
+        /* Small devices adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+
+        .link-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .link-section a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: #fff;
+            background: linear-gradient(90deg, #56ab2f 0%, #a8e063 100%); /* Light green gradient */
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .link-section a:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(90deg, #5fbc54 0%, #76d06f 100%); /* Hover effect */
+        }
+    </style>
+</head>
+<body>
+
+  
+    <section id="experience" class="container">
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Development and Integration</h3>
+            <p>Designing and developing comprehensive digital solutions, covering both front-end and back-end. Utilizing technologies such as JavaScript (React, Angular, Vue.js), Node.js, as well as frameworks like Django or Laravel to create dynamic and performant web applications.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Database Management</h3>
+            <p>Setting up and optimizing databases (SQL and NoSQL like MySQL, PostgreSQL, MongoDB) to ensure high performance and a seamless user experience.</p>
+        </div>
+        <div class="experience-item">
+            <h3>API and Web Services</h3>
+            <p>Creating RESTful APIs and integrating third-party APIs to connect various services and enhance system interoperability.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Security and Optimization</h3>
+            <p>Implementing best practices in web security and performance optimization, ensuring scalability and maintainability of developed applications.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Team Collaboration</h3>
+            <p>Experience working in collaborative teams using agile methodologies (Scrum, Kanban) with tools like Jira and Git, contributing to multidisciplinary projects from conception to deployment.</p>
+        </div>
+    </section>
+    <div class="link-section">
+        <a href="page2.html">Technical Skills</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical Skills</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: #333;
+    }
+    .card {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        max-width: 900px;
+        width: 90%;
+        padding: 40px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    }
+    .card h2 {
+        font-size: 2.2em;
+        color: #3498db;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .grid-item {
+        background-color: #ecf0f1;
+        border-radius: 8px;
+        padding: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .grid-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .section-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #2980b9;
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+    }
+    .skills-list {
+        margin: 10px 0;
+        padding-left: 20px;
+        list-style-type: none;
+        color: #333;
+    }
+    .skills-list li {
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+    }
+    .skills-list i {
+        margin-right: 10px;
+    }
+    /* Individual icon colors */
+    .html-icon { color: #e34c26; } /* HTML - Red */
+    .css-icon { color: #2965f1; } /* CSS - Blue */
+    .js-icon { color: #f7df1e; } /* JavaScript - Yellow */
+    .react-icon { color: #61dafb; } /* React - Cyan */
+    .vue-icon { color: #41b883; } /* Vue - Green */
+    .angular-icon { color: #dd0031; } /* Angular - Red */
+    .node-icon { color: #68a063; } /* Node.js - Green */
+    .express-icon { color: #333; } /* Express - Dark */
+    .python-icon { color: #306998; } /* Python - Blue */
+    .django-icon { color: #092e20; } /* Django - Dark Green */
+    .rails-icon { color: #cc0000; } /* Ruby on Rails - Red */
+    .mysql-icon { color: #00758f; } /* MySQL - Teal */
+    .postgresql-icon { color: #336791; } /* PostgreSQL - Blue */
+    .mongodb-icon { color: #47a248; } /* MongoDB - Green */
+    .git-icon { color: #f1502f; } /* Git - Orange */
+    .docker-icon { color: #2496ed; } /* Docker - Blue */
+    .jenkins-icon { color: #d24939; } /* Jenkins - Red */
+    .aws-icon { color: #ff9900; } /* AWS - Orange */
+    .rest-icon { color: #f8981d; } /* REST - Yellow */
+    .graphql-icon { color: #e535ab; } /* GraphQL - Pink */
+    .agile-icon { color: #2d9cdb; } /* Agile - Light Blue */
+    .scrum-icon { color: #6f42c1; } /* SCRUM - Purple */
+    .tdd-icon { color: #20c997; } /* TDD - Green */
+    .link-section {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .link-section a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 25px;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #3498db;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s, transform 0.3s;
+        font-weight: 500;
+    }
+    .link-section a:hover {
+        transform: translateY(-3px);
+        background-color: #2980b9;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Technical Skills</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p class="section-title">Front-end</p>
+            <ul class="skills-list">
+                <li><i class="fab fa-html5 html-icon"></i> HTML</li>
+                <li><i class="fab fa-css3-alt css-icon"></i> CSS</li>
+                <li><i class="fab fa-js-square js-icon"></i> JavaScript</li>
+                <li><i class="fab fa-react react-icon"></i> React</li>
+                <li><i class="fab fa-vuejs vue-icon"></i> Vue.js</li>
+           
+            </ul>
+        </div>
+
+        <div class="grid-item">
+            <p class="section-title">Back-end</p>
+            <ul class="skills-list">
+                <li><i class="fab fa-node-js node-icon"></i> Node.js</li>
+                <li><i class="fas fa-server express-icon"></i> Express.js</li>
+                <li><i class="fab fa-python python-icon"></i> Python</li>
+              
+            </ul>
+        </div>
+
+        <div class="grid-item">
+            <p class="section-title">Databases</p>
+            <ul class="skills-list">
+                <li><i class="fas fa-database mysql-icon"></i> MySQL</li>
+              
+            </ul>
+        </div>
+
+       
+
+        <div class="grid-item">
+            <p class="section-title">Methodologies</p>
+            <ul class="skills-list">
+                <li><i class="fas fa-project-diagram agile-icon"></i> Agile</li>
+                <li><i class="fas fa-tasks scrum-icon"></i> SCRUM</li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="link-section">
+    <a href="page3.html">Training</a>
+</div>
+</body>
+</html>

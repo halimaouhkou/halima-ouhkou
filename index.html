@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Header, Image et Footer</title>
+    <!-- Lien vers Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien vers Font Awesome pour les icônes -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .welcome-title {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .link-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .link-section a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: #fff;
+            background: linear-gradient(90deg, #855026 0%, #fc25cd 100%);
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .link-section a:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+        }
+
+        .image-section {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            margin-right: 20px;
+            padding: 20px;
+          
+           
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow around the box */
+            background-color: #f9f9f9;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .description h1 {
+            color: #fc25cd;
+            text-align: center; /* Pink color for the heading */
+        }
+
+        img {
+            width: 350px;
+            height: 350px;
+            border-radius: 100px;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+            padding-left: 700px;
+           
+        }
+
+        .social-icons a {
+            font-size: 1.5em;
+            margin: 0 20px;
+            color: #fff;
+           
+        }
+
+        .social-icons .facebook {
+            color: #3b5998;
+        }
+
+        .social-icons .instagram {
+            color: #e1306c;
+        }
+
+        .social-icons .linkedin {
+            color: #0077b5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Titre de bienvenue -->
+    <h1 class="welcome-title">Welcome to my page</h1>
+    <div class="link-section">
+        <a href="page1.html">professional experience</a>
+        <a href="page2.html">Technical Skills</a>
+        <a href="page3.html">training</a>
+    </div>
+    <!-- Section avec image et description -->
+    <div class="image-section">
+        <div class="description">
+            <h1>About me</h1>
+            <p>My name is Halima I am a student specializing in digital <br> 
+                development with a focus on Full Stack Development. <br>
+                I am passionate about building comprehensive applications<br>
+                 and websites that involve both front-end and back-end development.<br> 
+                 Through this program, I am acquiring the skills needed to develop <br>
+                 end-to-end tech solutions, and I aspire to work on projects where<br>
+                  I can apply my technical knowledge and make a positive impact in the tech world.
+                </p>
+        </div>
+        <img src="imagesML.jpg" alt="Petite image" class="img-fluid">
+    </div>
+
+    <!-- Section des liens -->
+   
+
+    <!-- Icônes sociales -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
